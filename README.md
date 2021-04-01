@@ -7,7 +7,7 @@ Note: All static files including some javascript files and some images were not 
 
 **(A) Suppliers:**
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
   
   • Manage orders
   
