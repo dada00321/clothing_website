@@ -7,26 +7,26 @@ Note: All static files including some javascript files and some images were not 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Manage orders
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Manage orders
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Download list of orders
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Download list of orders
   
 
-**(B) Users**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(B) Users**
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Browse merchandise
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Browse merchandise
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Add to cart
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Add to cart
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Use Coupon
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Use Coupon
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Payment
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Payment
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Receive an invoice (Email)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Receive an invoice (Email)
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Search (very simple type, using module provided by postgreSQL)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Search (very simple type, using module provided by postgreSQL)
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Recommend (very simple type, using item-based CF recommendation)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Recommend (very simple type, using item-based CF recommendation)
  
 
 (2) Using tools/frameworks
