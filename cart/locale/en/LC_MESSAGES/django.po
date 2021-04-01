@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-04 00:39+0800\n"
+"PO-Revision-Date: 2021-02-16 15:21+0806\n"
+"Last-Translator: b'  <hopluy@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.8.1\n"
+
+#: .\cart\forms.py:12 .\cart\templates\cart\detail.html:16
+msgid "Quantity"
+msgstr "Quantity"
+
+#: .\cart\templates\cart\detail.html:6 .\cart\templates\cart\detail.html:10
+msgid "Your shopping cart"
+msgstr "Your shopping cart"
+
+#: .\cart\templates\cart\detail.html:14
+msgid "Image"
+msgstr "Image"
+
+#: .\cart\templates\cart\detail.html:15
+msgid "Product"
+msgstr "Product"
+
+#: .\cart\templates\cart\detail.html:17 .\cart\templates\cart\detail.html:40
+msgid "Remove"
+msgstr "Remove"
+
+#: .\cart\templates\cart\detail.html:18
+msgid "Unit price"
+msgstr "Unit price"
+
+#: .\cart\templates\cart\detail.html:19
+msgid "Price"
+msgstr "Price"
+
+#: .\cart\templates\cart\detail.html:36
+msgid "Update"
+msgstr "Update"
+
+#: .\cart\templates\cart\detail.html:50
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: .\cart\templates\cart\detail.html:57
+msgid "Use coupon"
+msgstr "Use coupon"
+
+#: .\cart\templates\cart\detail.html:58
+#, python-format
+msgid ""
+"\n"
+"            %(coupon_discount)s%% Off\n"
+"          "
+msgstr ""
+"\n"
+"%(coupon_discount)s%% Off"
+
+#: .\cart\templates\cart\detail.html:70
+msgid "Total"
+msgstr "Total"
+
+#: .\cart\templates\cart\detail.html:81
+msgid "Apply"
+msgstr "Apply"
+
+#: .\cart\templates\cart\detail.html:87
+msgid "Continue shopping"
+msgstr "Continue shopping"
+
+#: .\cart\templates\cart\detail.html:91
+msgid "Checkout"
+msgstr "Checkout"

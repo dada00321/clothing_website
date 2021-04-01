@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-04 00:39+0800\n"
+"PO-Revision-Date: 2021-02-16 15:29+0806\n"
+"Last-Translator: b'  <hopluy@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.8.1\n"
+
+#: .\orders\models.py:10
+msgid "first_name"
+msgstr "中文姓氏"
+
+#: .\orders\models.py:12
+msgid "last_name"
+msgstr "中文名"
+
+#: .\orders\models.py:14
+msgid "email"
+msgstr "email"
+
+#: .\orders\models.py:15
+msgid "address"
+msgstr "地址"
+
+#: .\orders\models.py:17
+msgid "zip_code"
+msgstr "郵遞區號"
+
+#: .\orders\templates\orders\order\create.html:4
+#: .\orders\templates\orders\order\create.html:8
+msgid "Checkout"
+msgstr "去結帳"
+
+#: .\orders\templates\orders\order\create.html:12
+msgid "Your order"
+msgstr "您的訂單"
+
+#: .\orders\templates\orders\order\create.html:28
+#, python-format
+msgid ""
+"\n"
+"\t    Use coupon(%(coupon_discount)s%% off)\n"
+"\t    "
+msgstr ""
+"\n"
+"使用優惠券 (折價 %(coupon_discount)s%%)"
+
+#: .\orders\templates\orders\order\create.html:39
+#: .\orders\templates\orders\order\pdf.html:71
+msgid "Total"
+msgstr "總金額"
+
+#: .\orders\templates\orders\order\create.html:49
+msgid "Place order"
+msgstr "送出訂單"
+
+#: .\orders\templates\orders\order\created.html:5
+#: .\orders\templates\orders\order\created.html:9
+msgid "Thank you"
+msgstr "感謝您大駕光臨！"
+
+#: .\orders\templates\orders\order\created.html:10
+msgid "Your order has been successfully completed."
+msgstr "您的訂單已經成功生效！"
+
+#: .\orders\templates\orders\order\created.html:12
+msgid "Your order number is"
+msgstr "您的訂單編號是"
+
+#: .\orders\templates\orders\order\pdf.html:6
+msgid "Invoice of order id:"
+msgstr "對應本發票的訂單編號為:"
+
+#: .\orders\templates\orders\order\pdf.html:10
+msgid "Date:"
+msgstr "訂單生效日期:"
+
+#: .\orders\templates\orders\order\pdf.html:16
+msgid "Bill to"
+msgstr "訂單資訊"
+
+#: .\orders\templates\orders\order\pdf.html:29
+msgid "Items bought"
+msgstr "購買品項"
+
+#: .\orders\templates\orders\order\pdf.html:33
+msgid "Product"
+msgstr "商品"
+
+#: .\orders\templates\orders\order\pdf.html:34
+msgid "Price"
+msgstr "單價"
+
+#: .\orders\templates\orders\order\pdf.html:35
+msgid "Quantity"
+msgstr "數量"
+
+#: .\orders\templates\orders\order\pdf.html:36
+msgid "Cost"
+msgstr "小計"
+
+#: .\orders\templates\orders\order\pdf.html:52
+msgid "Use coupon"
+msgstr "使用優惠券"
+
+#: .\orders\templates\orders\order\pdf.html:54
+msgid "Yes"
+msgstr "是"
+
+#: .\orders\templates\orders\order\pdf.html:56
+msgid "No"
+msgstr "否"
+
+#: .\orders\templates\orders\order\pdf.html:61
+msgid "Discount package"
+msgstr "折價方案"
+
+#: .\orders\templates\orders\order\pdf.html:63
+#, python-format
+msgid ""
+"\n"
+"              %(order_discount)s%% Off\n"
+"            "
+msgstr ""
+"\n"
+"折價 %(order_discount)s%% "
+
+#: .\orders\templates\orders\order\pdf.html:81
+msgid "Paid"
+msgstr "已付款"
+
+#: .\orders\templates\orders\order\pdf.html:83
+msgid "Pending payment"
+msgstr "尚未付款"
+
+#~ msgid "city"
+#~ msgstr "城市"
+
+#~ msgid "create/"
+#~ msgstr "生成訂單/"

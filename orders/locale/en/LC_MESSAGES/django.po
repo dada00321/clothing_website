@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-04 00:39+0800\n"
+"PO-Revision-Date: 2021-02-16 15:16+0806\n"
+"Last-Translator: b'  <hopluy@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.8.1\n"
+
+#: .\orders\models.py:10
+msgid "first_name"
+msgstr "first_name"
+
+#: .\orders\models.py:12
+msgid "last_name"
+msgstr "last_name"
+
+#: .\orders\models.py:14
+msgid "email"
+msgstr "email"
+
+#: .\orders\models.py:15
+msgid "address"
+msgstr "address"
+
+#: .\orders\models.py:17
+msgid "zip_code"
+msgstr "zip_code"
+
+#: .\orders\templates\orders\order\create.html:4
+#: .\orders\templates\orders\order\create.html:8
+msgid "Checkout"
+msgstr "Checkout"
+
+#: .\orders\templates\orders\order\create.html:12
+msgid "Your order"
+msgstr "Your order"
+
+#: .\orders\templates\orders\order\create.html:28
+#, python-format
+msgid ""
+"\n"
+"\t    Use coupon(%(coupon_discount)s%% off)\n"
+"\t    "
+msgstr ""
+"\n"
+"Use coupon(%(coupon_discount)s%% off)"
+
+#: .\orders\templates\orders\order\create.html:39
+#: .\orders\templates\orders\order\pdf.html:71
+msgid "Total"
+msgstr "Total"
+
+#: .\orders\templates\orders\order\create.html:49
+msgid "Place order"
+msgstr "Place order"
+
+#: .\orders\templates\orders\order\created.html:5
+#: .\orders\templates\orders\order\created.html:9
+msgid "Thank you"
+msgstr "Thank you"
+
+#: .\orders\templates\orders\order\created.html:10
+msgid "Your order has been successfully completed."
+msgstr "Your order has been successfully completed."
+
+#: .\orders\templates\orders\order\created.html:12
+msgid "Your order number is"
+msgstr "Your order number is"
+
+#: .\orders\templates\orders\order\pdf.html:6
+msgid "Invoice of order id:"
+msgstr "Invoice of order id:"
+
+#: .\orders\templates\orders\order\pdf.html:10
+msgid "Date:"
+msgstr "Date:"
+
+#: .\orders\templates\orders\order\pdf.html:16
+msgid "Bill to"
+msgstr "Bill to"
+
+#: .\orders\templates\orders\order\pdf.html:29
+msgid "Items bought"
+msgstr "Items bought"
+
+#: .\orders\templates\orders\order\pdf.html:33
+msgid "Product"
+msgstr "Product"
+
+#: .\orders\templates\orders\order\pdf.html:34
+msgid "Price"
+msgstr "Price"
+
+#: .\orders\templates\orders\order\pdf.html:35
+msgid "Quantity"
+msgstr "Quantity"
+
+#: .\orders\templates\orders\order\pdf.html:36
+msgid "Cost"
+msgstr "Cost"
+
+#: .\orders\templates\orders\order\pdf.html:52
+msgid "Use coupon"
+msgstr "Use coupon"
+
+#: .\orders\templates\orders\order\pdf.html:54
+msgid "Yes"
+msgstr "Yes"
+
+#: .\orders\templates\orders\order\pdf.html:56
+msgid "No"
+msgstr "No"
+
+#: .\orders\templates\orders\order\pdf.html:61
+msgid "Discount package"
+msgstr "Discount package"
+
+#: .\orders\templates\orders\order\pdf.html:63
+#, python-format
+msgid ""
+"\n"
+"              %(order_discount)s%% Off\n"
+"            "
+msgstr ""
+"\n"
+"%(order_discount)s%% Off"
+
+#: .\orders\templates\orders\order\pdf.html:81
+msgid "Paid"
+msgstr "Paid"
+
+#: .\orders\templates\orders\order\pdf.html:83
+msgid "Pending payment"
+msgstr "Pending payment"
+
+#~ msgid "city"
+#~ msgstr "city"
+
+#~ msgid "create/"
+#~ msgstr "create/"

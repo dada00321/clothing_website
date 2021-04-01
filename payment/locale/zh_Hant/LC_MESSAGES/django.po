@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-04 00:39+0800\n"
+"PO-Revision-Date: 2021-02-16 16:15+0806\n"
+"Last-Translator: b'  <hopluy@gmail.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.8.1\n"
+
+#: .\payment\templates\payment\canceled.html:4
+msgid "Your payment has not been processed"
+msgstr "已取消付款 "
+
+#: .\payment\templates\payment\canceled.html:5
+msgid "There was a problem processing your payment."
+msgstr "很抱歉，付款流程發生未知錯誤"
+
+#: .\payment\templates\payment\done.html:4
+msgid "Your payment was successful"
+msgstr "付款成功"
+
+#: .\payment\templates\payment\done.html:5
+msgid "Your payment has been processed successfully."
+msgstr "恭喜！您的付款流程已順利結束"
+
+#: .\payment\templates\payment\process.html:3
+#: .\payment\templates\payment\process.html:6
+msgid "Pay by credit card"
+msgstr "信用卡支付"
+
+#: .\payment\templates\payment\process.html:9
+msgid "Card Number"
+msgstr "卡號"
+
+#: .\payment\templates\payment\process.html:12
+msgid "CVV"
+msgstr "CVV (卡片背後三碼)"
+
+#: .\payment\templates\payment\process.html:15
+msgid "Expiration Date"
+msgstr "有效日期 (MM/YY)"
+
+#~ msgid "process/"
+#~ msgstr "交易進行中/"
+
+#~ msgid "done/"
+#~ msgstr "交易成功/"
+
+#~ msgid "canceled/"
+#~ msgstr "交易取消/"

@@ -1,0 +1,66 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{% block title %}Clothes2U{% endblock %}</title>
+  <link href="{% static "css/base.css" %}" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+    <a href="/" class="logo">Clothes2U</a>
+    {% get_current_language as LANGUAGE_CODE %}
+    {% get_available_languages as LANGUAGES %}
+    {% get_language_info_list for LANGUAGES as languages %}
+    <!-- NEW!! -->
+    <!--
+    <div>
+      <form action="." method="get">
+        {{ search_form.as_p }}
+        <input type="submit" value="Search">
+      </form>
+    </div>
+    -->
+    <div class="languages">
+      <p>{% trans "Language" %}:</p>
+      <ul class="languages">
+        {% for language in languages %}
+          <li>
+            <a href="/{{ language.code }}/" {% if language.code == LANGUAGE_CODE %} class="selected"{% endif %}>
+              {{ language.name_local }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div id="subheader">
+    <div class="cart">
+      {% with total_items=cart|length %}
+          {% if cart|length > 0 %}
+            {% trans "Your cart" %}:
+            {% ifequal request.LANGUAGE_CODE "en" %}
+              <a href='{% url "cart:cart_detail" %}'>
+                  {{ total_items }} {% trans "item" %}{{ total_items|pluralize }} ,
+                  ${{ cart.get_total_price }}
+              </a>
+            {% else %}
+              <a href='{% url "cart:cart_detail" %}'>
+                  {{ total_items }} {% trans "item" %} ,
+                  ${{ cart.get_total_price }}
+              </a>
+            {% endifequal %}
+
+          {% else %}
+            {% trans "Your cart is empty." %}
+          {% endif %}
+        {% endwith %}
+    </div>
+  </div>
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+</body>
+</html>

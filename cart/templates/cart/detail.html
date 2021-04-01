@@ -1,0 +1,95 @@
+{% extends "shop/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+  {% trans "Your shopping cart" %}
+{% endblock %}
+
+{% block content %}
+  <h1>{% trans "Your shopping cart" %}</h1>
+  <table class="cart">
+    <thead>
+      <tr>
+        <th class="img">{% trans "Image" %}</th>
+        <th>{% trans "Product" %}</th>
+        <th>{% trans "Quantity" %}</th>
+        <th>{% trans "Remove" %}</th>
+        <th>{% trans "Unit price" %}</th>
+        <th>{% trans "Price" %}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in cart %}
+        {% with product=item.product %}
+          <tr>
+            <td>
+              <a href="{{ product.get_absolute_url }}">
+                <img src='{% if product.image %}{{ product.image.url }}{% else %}{% static "img/no_image.png" %}{% endif %}'>
+              </a>
+            </td>
+            <td>{{ product.name }}</td>
+            <td>
+              <form action='{% url "cart:cart_add" product.id %}' method="post">
+                {{ item.update_quantity_form.quantity }}
+                {{ item.update_quantity_form.update }}
+                <input type="submit" value='{% trans "Update" %}'>
+                {% csrf_token %}
+              </form>
+            </td>
+            <td><a href="{% url "cart:cart_remove" product.id %}">{% trans "Remove" %}</a></td>
+            <td class="num" style="text-align:left">${{ item.price_str }}</td>
+            <td class="num" style="text-align:left">${{ item.total_price_str }}</td>
+          </tr>
+        {% endwith %}
+      {% endfor %}
+
+      <!-- 顯示「原價」-->
+      {% if cart.coupon %}
+      <tr class="subtotal">
+        <td>{% trans "Subtotal" %}</td>
+        <td colspan="4"></td>
+        <td class="num">${{ cart.get_total_price }}</td>
+      </tr>
+      <!-- 顯示「折扣金額」-->
+      <tr>
+        <td>
+          {% trans "Use coupon" %}{% ifequal LANGUAGE_CODE "en" %}:{% else %}：{% endifequal %}
+          {% blocktrans with coupon_discount=cart.coupon.discount %}
+            {{ coupon_discount }}% Off
+          {% endblocktrans %}
+        </td>
+        <td colspan="4"></td>
+        <td class="num neg">
+          - ${{ cart.get_discount_amount }}
+        </td>
+      </tr>
+      {% endif %}
+      <!-- 顯示「折扣後的總金額」 -->
+      <tr class="total">
+        <td>{% trans "Total" %}</td>
+        <td colspan="4"></td>
+        <td class="num">
+          ${{ cart.get_total_price_after_discount }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- 優惠券表單 -->
+  <form action='{% url "coupons:coupon_apply" %}' method="post">
+    {{ coupon_apply_form }}
+    <input type="submit" value='{% trans "Apply" %}'>
+    {% csrf_token %}
+  </form>
+  <!-- 繼續逛逛/去結帳按鈕 -->
+  <p class="text-right">
+    <a href="{% url "shop:product_list" %}" class="button light">
+      {% trans "Continue shopping" %}
+    </a>
+    {% if cart.get_total_price_after_discount_val > 0 %}
+      <a href="{% url "orders:order_create" %}" class="button">
+        {% trans "Checkout" %}
+      </a>
+    {% endif %}
+  </p>
+{% endblock %}

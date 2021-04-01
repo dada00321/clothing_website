@@ -1,0 +1,38 @@
+{% extends "shop/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Search" %}{% endblock %}
+
+{% block content %}
+  {% if query %}
+    <h2>{% blocktrans %}Products containing: {{ query }}{% endblocktrans %}</h2>
+    <h3>
+      {% with results.count as results_num %}
+      {% endwith %}
+    </h3>
+    <div id="main" class="product-list">
+    {% for product in results %}
+      <div class="item">
+        <a href="{{ product.get_absolute_url }}">
+          <img src='{% if product.image %}{{ product.image.url }}{% else %}{% static "img/no_image.png" %}{% endif %}'>
+        </a>
+        <a href="{{ product.get_absolute_url }}">{{ product.name }}</a><br>
+        ${{ product.get_price_str }}
+      </div>
+    {% empty %}
+      <p>
+      {% blocktrans %}
+        There are no results for your query: {{ query }}.
+      {% endblocktrans %}
+      </p>
+    {% endfor %}
+    </div>
+  {% else %}
+    <h2>{% trans "Search for products" %}</h2>
+    <form action="." method="get">
+      {{ form.as_p }}
+      <input type="submit" value='{% trans "Search" %}'>
+    </form>
+  {% endif %}
+{% endblock %}
