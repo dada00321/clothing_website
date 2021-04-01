@@ -5,16 +5,16 @@ Note: All static files including some javascript files and some images were not 
 (1) Available function:
 ---
 
-Suppliers:
+**(A) Suppliers:**
 
-  • Upload merchandise
+  &nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
   
   • Manage orders
   
   • Download list of orders
   
 
-Ordinary users:
+**(B) Ordinary users:**
 
   • Browse merchandise
   
