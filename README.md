@@ -3,9 +3,9 @@ Note: All static files including some javascript files and some images were not 
 (1) Available functions
 ---
 
-**(A) Suppliers**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(A) Suppliers**
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Manage orders
   
