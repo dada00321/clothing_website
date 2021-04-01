@@ -1,7 +1,6 @@
 # clothing_website
 
-All static files were not be pushed.
----
+P.S. All static files were not be pushed.
 
 (1) Available function: 
 ---
