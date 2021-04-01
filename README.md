@@ -1,8 +1,6 @@
-# clothing_website
-
 Note: All static files including some javascript files and some images were not be pushed.
 
-(1) Available function:
+(1) Available functions
 ---
 
 **(A) Suppliers:**
@@ -31,7 +29,7 @@ Note: All static files including some javascript files and some images were not 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Recommend (very simple type, using item-based CF recommendation)
  
 
-(2) Using tools/frameworks: 
+(2) Using tools/frameworks
 ---
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• RabbitMQ - for arranging tasks of mail sending after purchasing some goods by users
   
