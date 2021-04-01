@@ -3,7 +3,7 @@ Note: All static files including some javascript files and some images were not 
 (1) Available functions
 ---
 
-**(A) Suppliers:**
+**(A) Suppliers**
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
   
@@ -12,7 +12,7 @@ Note: All static files including some javascript files and some images were not 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Download list of orders
   
 
-**(B) Ordinary users:**
+**(B) Users**
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Browse merchandise
   
