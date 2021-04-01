@@ -9,33 +9,33 @@ Note: All static files including some javascript files and some images were not 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Upload merchandise
   
-  • Manage orders
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Manage orders
   
-  • Download list of orders
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Download list of orders
   
 
 **(B) Ordinary users:**
 
-  • Browse merchandise
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Browse merchandise
   
-  • Add to cart
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Add to cart
   
-  • Use Coupon
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Use Coupon
   
-  • Payment
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Payment
   
-  • Receive an invoice (Email)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Receive an invoice (Email)
   
-  • Search (very simple type, using module provided by postgreSQL)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Search (very simple type, using module provided by postgreSQL)
   
-  • Recommend (very simple type, using item-based CF recommendation)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Recommend (very simple type, using item-based CF recommendation)
  
 
 (2) Using tools/frameworks: 
 ---
-  • RabbitMQ - for arranging tasks of mail sending after purchasing some goods by users
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• RabbitMQ - for arranging tasks of mail sending after purchasing some goods by users
   
-  • Celery - for making tasks of mail sending work in asynchronous
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Celery - for making tasks of mail sending work in asynchronous
   
-  • Redis - for calculating co-occurrence matrix in recommendation process more efficiently
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Redis - for calculating co-occurrence matrix in recommendation process more efficiently
   
